@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AvoToastApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Breakfast" translatesAutoresizingMaskIntoConstraints="NO" id="d43-a5-ENs">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart_health" translatesAutoresizingMaskIntoConstraints="NO" id="Ss1-jZ-Ib9">
+                                <rect key="frame" x="347" y="84" width="47" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ss1-jZ-Ib9" secondAttribute="height" multiplier="47:41" id="XJJ-7t-kRF"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="Jqb-bE-Yto">
+                                <rect key="frame" x="0.0" y="564" width="414" height="298"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Fy-Ll-dCu">
+                                <rect key="frame" x="20" y="84" width="271" height="100"/>
+                                <string key="text">Hardcore 
+Avo Toast</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Energize with this healthy and hearty breakfast" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5k-DK-z6G">
+                                <rect key="frame" x="20" y="778" width="278" height="44"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TopGradient" translatesAutoresizingMaskIntoConstraints="NO" id="YFu-0q-0ld">
+                                <rect key="frame" x="0.0" y="44" width="414" height="380"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4Fy-Ll-dCu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="07I-oN-ueB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="I5k-DK-z6G" secondAttribute="bottom" constant="40" id="6Yv-YJ-iI5"/>
+                            <constraint firstItem="Jqb-bE-Yto" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6ay-RA-NIC"/>
+                            <constraint firstItem="YFu-0q-0ld" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BY0-zB-bxk"/>
+                            <constraint firstItem="d43-a5-ENs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PL1-Ff-PVp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jqb-bE-Yto" secondAttribute="trailing" id="Umg-8j-LF5"/>
+                            <constraint firstItem="d43-a5-ENs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VNJ-vK-Gzi"/>
+                            <constraint firstItem="d43-a5-ENs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="XZO-pV-T6H"/>
+                            <constraint firstItem="4Fy-Ll-dCu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bBX-rG-CZL"/>
+                            <constraint firstItem="Ss1-jZ-Ib9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="czA-Dk-cen"/>
+                            <constraint firstItem="YFu-0q-0ld" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eQV-qh-yya"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ss1-jZ-Ib9" secondAttribute="trailing" constant="20" id="fZU-py-qDq"/>
+                            <constraint firstItem="Jqb-bE-Yto" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lSC-yf-LPp"/>
+                            <constraint firstItem="I5k-DK-z6G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nV9-GD-pGk"/>
+                            <constraint firstItem="d43-a5-ENs" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="u8r-dn-1F1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YFu-0q-0ld" secondAttribute="trailing" id="x6X-hm-HTk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BottomGradient" width="414" height="298"/>
+        <image name="Breakfast" width="414" height="896"/>
+        <image name="Heart_health" width="47" height="41"/>
+        <image name="TopGradient" width="414" height="380"/>
+    </resources>
+</document>
